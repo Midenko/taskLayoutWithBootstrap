@@ -1,1 +1,10 @@
-# taskLayoutWithBootstrap
+Сверстать предложенный макет.
+
+Макет:
+https://drive.google.com/file/d/0B29rCQpJbAHpYlUzeFJlWHRKSXc
+
+Требования:
+Использовать bootstrap
+Использовать html5, css3
+Страница должна адаптироваться под любое разрешение до 320px
+Страница должна корректно отображаться в популярных браузерах последних двух версий: Chrome, Firefox, Safari, IE (начиная с 10й версии)
