@@ -1,0 +1,181 @@
+.page
+  font-family 'Source Sans Pro', sans-serif
+  font-size 16px
+  font-weight 400
+
+.logo
+  padding 0
+  
+.header
+  position relative
+  height 485px
+  background url("../img/header-bg.jpg") no-repeat
+  -webkit-background-size cover
+  background-size cover
+  @media screen and (max-width: 430px)
+    height 350px
+  &__title
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    color rgba(255, 255, 255, .7);
+    letter-spacing 10px
+    font-weight 200
+    font-size 54px
+    @media screen and (min-width: 320px) and (max-width: 500px)
+      font-size 27px
+  &__bottom
+    position absolute
+    top 92%
+    left 50%
+    transform translate(-50%, -50%)
+    color  #ffffff
+    font-weight 900
+    line-height 88px
+    letter-spacing 5px
+    font-size 190px
+    @media screen and (min-width: 850px) and (max-width: 1150px)
+      font-size 140px
+    @media screen and (min-width: 1150px) and (max-width: 1350px)
+      font-size 160px
+  & a
+    color  #54585a
+    letter-spacing -0.32px
+
+  &__img
+    width 100%
+
+.navigation
+  background-color white
+  position absolute
+  top 5%
+  width 100%
+  &__wrapper
+    padding 5px 0
+    @media screen and (min-width: 1000px) and (max-width: 1500px)
+      display flex
+      flex-direction row
+      justify-content space-around
+      align-items center
+.main
+  &__header
+    font-size 36px
+    font-weight 900
+    color #fd992f
+    padding-top 40px
+    @media screen and (max-width: 430px)
+      font-size 28px
+
+.both-sides-line
+  display flex
+  flex-direction row
+  justify-content center
+  align-items center
+  margin-bottom 20px
+  &__line
+    width 210px
+    height 4px
+    background-color #b7b7b7
+    margin: 0px 7px -7px 12px
+    border none
+  &__element
+    color #fd992f
+    font-size 20px
+    font-size 30px
+    letter-spacing -6px
+    transform rotate(9deg)
+
+.article
+  margin-top 30px
+  &__header
+    color #fd992f
+    font-size 18px
+    font-weight 700
+    margin-left -20px
+
+.line
+  background-color  rgba(215, 215, 215, 0.8)
+  width 300px
+  height 1px
+  margin 50px 0px
+
+.button
+  border-radius 15px
+  border-width 3px
+  border-color  #0a768d
+  color #0a768d
+  border-style solid
+  width 120px
+  height 40px
+  font-size 16px
+  font-weight 600
+  letter-spacing -0.32px
+  margin 10px 40px 10px 0
+  &:nth-last-child(1)
+    margin-right 0
+  &_color-orange
+    color #fd992f
+    border-color  #fd992f
+  @media screen and (min-width: 320px) and (max-width: 990px)
+    margin 10px 0
+    width 200px
+
+.buttons-wrapper
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+  @media screen and (min-width: 320px) and (max-width: 990px)
+    flex-direction column
+    align-items center
+    & div:nth-last-child(1)
+      display flex
+      flex-direction column
+      align-items center
+
+.footer
+  background-color rgb(186, 71, 145)
+  &__wrapper
+    height 85px
+    display flex
+    justify-content space-around
+    align-items center
+    @media screen and (min-width: 320px) and (max-width: 990px)
+      flex-direction column
+      align-items center
+      justify-content center
+  &__line
+    width 211px
+    height 1px
+    background-color white
+    margin 0
+    border none
+  &__coopyright
+    font-size 12px
+    font-weight 400
+    letter-spacing -0.24px
+    color white
+  & a
+    color #ffffff
+    font-size 12px
+    letter-spacing -0.24px
+
+.text-color__orange
+  color #fd992f
+
+.dropdown__arrow
+  color #fd992f
+  font-size 8px
+  padding-left 8px
+
+.strikethrough::after
+  content '/'
+  display inline-block
+  color #fd992f
+  position absolute
+  top 5px
+  left 56px
+  font-size 28px
+  transform skewX(-25deg)
+  @media screen and (max-width: 990px)
+    top 0
